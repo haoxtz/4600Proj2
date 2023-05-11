@@ -1,7 +1,6 @@
 package main
 
 import (
-	"/Project2/builtins"
 	"bufio"
 	"fmt"
 	"io"
@@ -9,6 +8,8 @@ import (
 	"os/exec"
 	"os/user"
 	"strings"
+
+	"github.com/haoxtz/4600Proj2/builtins"
 )
 
 func main() {
@@ -78,7 +79,7 @@ func handleInput(w io.Writer, input string, exit chan<- struct{}) error {
 	case "env":
 		return builtins.EnvironmentVariables(w, args...)
 	case "echo":
-		return builtins.echoCSH(args...)
+		return builtins.EchoCSH(args...)
 	case "exit":
 		exit <- struct{}{}
 		return nil
