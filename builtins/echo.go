@@ -1,3 +1,9 @@
+/*
+Course: CSCE4600
+Author: Samayra Rosales
+EUID: 	slr0356
+Email:  Samayra.Rosales@my.unt.edu
+*/
 package builtins
 
 import (
