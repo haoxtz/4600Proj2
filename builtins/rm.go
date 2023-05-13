@@ -1,3 +1,11 @@
+/*
+Course: CSCE4600
+Author: Aracely Heredia
+EUID: 	ah0961
+Email:  aracelyheredia@my.unt.edu
+*/
+
+
 package builtins
 
 import (
